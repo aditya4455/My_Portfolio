@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Ray - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div>
+        <h1>Aditya Ray</h1>
+        <h3>Web Developer || Logical Programmer</h3>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:bobbyrayb98@gmail.com">bobbyrayb98@gmail.com</a></p>
+            <p>Phone: <a href="tel:9062070567">9062070567</a></p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aditya-ray-7772b7215/" target="_blank">
+                    <i class="fa-brands fa-linkedin" id="linkedin"></i>
+                <!-- <img class="socialmediaimage" src="Linkedin-logo1.png" height="50px"> -->
+                </a>
+                <a href="https://github.com/aditya4455" target="_blank">
+                    <i class="fa-brands fa-square-github" id="github"></i>
+                    <!-- <img class="socialmediaimage" src="github-logo.png" height="50px"> -->
+                </a>
+                <a href="https://x.com/AdityaR20727354" target="_blank">
+                    <i class="fa-brands fa-x-twitter" id="twitter"></i>
+                    <!-- <img class="socialmediaimage" src="github-logo.png" height="50px"> -->
+                </a>
+                <a href="https://www.facebook.com/theaestheticaditya" target="_blank">
+                    <i class="fa-brands fa-square-facebook" id="facebook"></i>
+                    <!-- <img class="socialmediaimage" src="github-logo.png" height="50px"> -->
+                </a>
+            </div>
+        </div><br>
+        <button  onclick="scrollToSection('contact')">Contact Me</button>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate and skilled developer with expertise in React JS, Core Java, SQL, 
+        JavaScript, HTML, and CSS. With a strong foundation in web development, I enjoy crafting
+         intuitive and efficient user interfaces that enhance user experience. My proficiency in
+          front-end technologies like React allows me to build responsive, dynamic web applications, 
+          while my knowledge of Core Java and SQL equips me to handle backend logic and data management
+           seamlessly. I’m committed to continuous learning and look forward to tackling new challenges 
+           that let me grow my skills and contribute meaningfully to impactful projects.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">React JS</div>
+            <div class="skill-item">Core Java</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">SQL</div>            
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Movie Database App with Authentication</h3>
+                <p>Create a movie database app where users can search for movies, view details, and 
+                save favorites. Integrate OMDb or TMDB API for real-time data and add login/registration
+                 for personalized experiences. Use Context API or Redux for state management and secure
+                  favorites with React Router protected routes, covering API integration, authentication,
+                   and efficient state handling.</p>
+            </div>
+            <div class="project-item">
+                <h3>Student Result Management System</h3>
+                <p>The Student Result Management System is a web-based application built using HTML, CSS,
+                 JSP, and MySQL. It allows administrators to manage and update student results, while
+                  students can securely view their grades in real-time. The system streamlines result
+                   processing, providing an intuitive interface for both students and administrators.</p>
+            </div>
+            <div class="project-item">
+                <h3>To-Do List with CRUD Operations</h3>
+                <p>Create a task management app where users can add, edit, delete, and mark tasks
+                 as complete, with options for categories or due dates. Focus on state management, 
+                 controlled forms, and saving data in local storage.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://api.web3forms.com/submit  " method="POST">
+        <input type="hidden" name="access_key" value="85f28e96-c0fa-4f46-81f4-2878bd6d3572">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="email" placeholder="Email" name="email" required>
+            <textarea placeholder="Message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Aditya Ray. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
